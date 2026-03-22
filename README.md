@@ -77,26 +77,26 @@ LLM Usage Log
     improving dashboard structure and insights
 
   Example Promtps:
-    1. Data Parsing & Pipeline Design \n
-      "How should I parse nested JSONL telemetry logs and extract only relevant fields for analysis?" \n
-    👉 Result: \n
-      Implemented a parser for api_request events\n
-      Designed a clean data extraction pipeline\n
-    2. Database Design\n
-      "What is the best schema for storing telemetry usage data for a dashboard?"\n
-    👉 Result:\n
-      Created normalized tables (api_requests, employees)\n
-      Used event IDs as primary keys to prevent duplicates\n
-    3. Dashboard Design\n
-      "What insights should a usage analytics dashboard show?"\n
-    👉 Result:\n
-      Added KPIs (tokens, cost, users, sessions)\n
-      Implemented charts for usage trends, model usage, and performance\n
-      Added anomaly detection and top-user analysis\n
-    4. Data Validation\n
-      "How should I validate and clean telemetry data before storing it?"\n
-    👉 Result:\n
-      Implemented filtering for missing/invalid values\n
-      Added type conversions and constraints (e.g., non-negative tokens)\n
+    1. Data Parsing & Pipeline Design<br>
+      "How should I parse nested JSONL telemetry logs and extract only relevant fields for analysis?"<br>
+    👉 Result:<br>
+      Implemented a parser for api_request events<br>
+      Designed a clean data extraction pipeline<br>
+    2. Database Design<br>
+      "What is the best schema for storing telemetry usage data for a dashboard?"<br>
+    👉 Result:<br>
+      Created normalized tables (api_requests, employees)<br>
+      Used event IDs as primary keys to prevent duplicates<br>
+    3. Dashboard Design<br>
+      "What insights should a usage analytics dashboard show?"<br>
+    👉 Result:<br>
+      Added KPIs (tokens, cost, users, sessions)<br>
+      Implemented charts for usage trends, model usage, and performance<br>
+      Added anomaly detection and top-user analysis<br>
+    4. Data Validation<br>
+      "How should I validate and clean telemetry data before storing it?"<br>
+    👉 Result:<br>
+      Implemented filtering for missing/invalid values<br>
+      Added type conversions and constraints (e.g., non-negative tokens)<br>
 
   All AI-generated code and suggestions were manually reviewed and validated.
