@@ -77,26 +77,26 @@ LLM Usage Log
     improving dashboard structure and insights
 
   Example Promtps:
-    1. Data Parsing & Pipeline Design
-      "How should I parse nested JSONL telemetry logs and extract only relevant fields for analysis?"
-    👉 Result:
-      Implemented a parser for api_request events
-      Designed a clean data extraction pipeline
-    2. Database Design
-      "What is the best schema for storing telemetry usage data for a dashboard?"
-    👉 Result:
-      Created normalized tables (api_requests, employees)
-      Used event IDs as primary keys to prevent duplicates
-    3. Dashboard Design
-      "What insights should a usage analytics dashboard show?"
-    👉 Result:
-      Added KPIs (tokens, cost, users, sessions)
-      Implemented charts for usage trends, model usage, and performance
-      Added anomaly detection and top-user analysis
-    4. Data Validation
-      "How should I validate and clean telemetry data before storing it?"
-    👉 Result:
-      Implemented filtering for missing/invalid values
-      Added type conversions and constraints (e.g., non-negative tokens)
+    1. Data Parsing & Pipeline Design \n
+      "How should I parse nested JSONL telemetry logs and extract only relevant fields for analysis?" \n
+    👉 Result: \n
+      Implemented a parser for api_request events\n
+      Designed a clean data extraction pipeline\n
+    2. Database Design\n
+      "What is the best schema for storing telemetry usage data for a dashboard?"\n
+    👉 Result:\n
+      Created normalized tables (api_requests, employees)\n
+      Used event IDs as primary keys to prevent duplicates\n
+    3. Dashboard Design\n
+      "What insights should a usage analytics dashboard show?"\n
+    👉 Result:\n
+      Added KPIs (tokens, cost, users, sessions)\n
+      Implemented charts for usage trends, model usage, and performance\n
+      Added anomaly detection and top-user analysis\n
+    4. Data Validation\n
+      "How should I validate and clean telemetry data before storing it?"\n
+    👉 Result:\n
+      Implemented filtering for missing/invalid values\n
+      Added type conversions and constraints (e.g., non-negative tokens)\n
 
   All AI-generated code and suggestions were manually reviewed and validated.
